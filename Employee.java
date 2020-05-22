@@ -26,10 +26,10 @@ public class Employee
    int no = sc.nextInt();
    Scanner scan = new Scanner(System.in);
    System.out.println("pls  enter the name"); 
-   String nAme = scan.nextLine();
+   String name = scan.nextLine();
     Employee employee1 = new Employee() ; 
     employee1.hra(no);
-    employee1.setName(nAme);
+    employee1.setName(name);
  }
  
 }
